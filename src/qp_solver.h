@@ -1,6 +1,6 @@
 #pragma once
 #include <Eigen/Dense>
-#include "QuadProg++.hh"
+#include "QuadProd++.hh"
 using namespace Eigen;
 
 VectorXd solve_qp(const MatrixXd& H, const VectorXd& f) {
